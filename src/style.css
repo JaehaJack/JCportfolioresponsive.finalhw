@@ -1,0 +1,58 @@
+:root {
+  --primary-color: rgb(243, 237, 247);
+  --secondary-color: rgb(154, 169, 253);
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background: var(--primary-color) !important;
+}
+
+.navbar-toggler-icon {
+  color: var(--primary-color) !important;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.header,
+.footer {
+  border: 1px solid rgb(154, 169, 253);
+  background: var(--primary-color);
+  opacity: 95%;
+  margin-top: 20px;
+}
+.social-page {
+  border: 1px solid rgb(154, 169, 253);
+  padding: 10px;
+  border-radius: 1%;
+}
+
+.large-photos img {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  border: 1px solid rgb(154, 169, 253);
+}
+
+.image-fluid {
+  max-width: 100%;
+  border: 1px solid rgb(154, 169, 253);
+  margin-bottom: 20px;
+  opacity: 100%;
+}
+
+.previewIMG {
+  background: var(--primary-color);
+  padding-top: 10px;
+  margin: 2px;
+}
